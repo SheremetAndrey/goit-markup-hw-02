@@ -20,6 +20,7 @@ a {
 }
 .header {
   font-family: Roboto;
+  background: #ffffff;
 }
 /* WebStudio */
 .header-logo {
@@ -285,6 +286,7 @@ a {
 /* Section bg */
 .about {
   width: 1600px;
+  background: #f5f4fa;
 }
 /* Наша команда */
 .about-text {
@@ -385,9 +387,10 @@ a {
   line-height: 19px;
   color: #757575;
 }
-/* Footer bg */
+/* Footer bg*/
 .footer {
   width: 1600px;
+  background: #2f303a;
 }
 .footer-logo {
   font-family: Raleway;
@@ -403,6 +406,10 @@ a {
 }
 .address {
   font-style: normal;
+  color: #ffffff;
+}
+.footer-item {
+  color: #ffffff;
 }
 /*----ПОРТФОЛИО----*/
 /* КНОПКИ*/
@@ -490,6 +497,8 @@ a {
 .main-content-one {
   width: 370px;
   background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-one {
   width: 370px;
@@ -503,6 +512,9 @@ a {
 /*BLOK 2*/
 .main-content-two {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-two {
   width: 370px;
@@ -516,6 +528,9 @@ a {
 /*BLOK 3*/
 .main-content-tree {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-tree {
   width: 370px;
@@ -529,6 +544,9 @@ a {
 /*BLOK 4*/
 .main-content-four {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-four {
   width: 370px;
@@ -542,6 +560,9 @@ a {
 /*BLOK 5*/
 .main-content-five {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-five {
   width: 370px;
@@ -555,6 +576,9 @@ a {
 /*BLOK 6*/
 .main-content-six {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-six {
   width: 370px;
@@ -568,6 +592,9 @@ a {
 /*BLOK 7*/
 .main-content-seven {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-seven {
   width: 370px;
@@ -581,6 +608,9 @@ a {
 /*BLOK 8*/
 .main-content-eight {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-eight {
   width: 370px;
@@ -594,6 +624,9 @@ a {
 /*BLOK 9*/
 .main-content-nine {
   width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .image-nine {
   width: 370px;
