@@ -12,10 +12,14 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 a {
   text-decoration: none;
 }
 .header {
+  font-family: Roboto;
 }
 /* WebStudio */
 .header-logo {
@@ -42,12 +46,6 @@ a {
 }
 /* Студия */
 .header-item-studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -59,12 +57,6 @@ a {
 }
 /* Студия */
 .header-item-studio:hover {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -76,12 +68,6 @@ a {
 }
 /* Портфолио */
 .header-item-portfolio {
-  position: absolute;
-  width: 76px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -93,12 +79,6 @@ a {
 }
 /* Портфолио */
 .header-item-portfolio:hover {
-  position: absolute;
-  width: 76px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -109,12 +89,6 @@ a {
 }
 /* Контакты */
 .header-item-contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -126,12 +100,6 @@ a {
 }
 /* Контакты */
 .header-item-contacts:hover {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -143,78 +111,53 @@ a {
 }
 /* info@devstudio.com */
 .header-mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
   color: #757575;
 }
 /* info@devstudio.com */
 .header-mail:hover {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 /* +38 096 111 11 11 */
 .header-phone {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
   color: #757575;
 }
 /* +38 096 111 11 11 */
 .header-phone:hover {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 
 /* Bg */
 .unique-content {
+  background-color: #2f303a;
 }
 /* Эффективные решения для вашего бизнеса */
 .main-logo {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* bg кнопка */
 .main-button {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.main-button:hover,
+.main-button:focus {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
 }
 /* Внимание к деталям */
 .hero-title-atention {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -307,26 +250,19 @@ a {
 }
 /* Чем мы занимаемся */
 .study-title {
-  font-family: Roboto;
-  position: absolute;
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: #212121;
 }
 /* img */
 .study-item-image {
+  width: 370px;
 }
 /* img1 */
 .study-item-image1 {
+  width: 370px;
 }
+
 .study-item-image2 {
+  width: 370px;
 }
 /* Внимание к деталям */
 .hero-title-atention {
@@ -348,22 +284,19 @@ a {
 }
 /* Section bg */
 .about {
+  width: 1600px;
 }
 /* Наша команда */
 .about-text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
 .about-item-comand {
+  width: 1170px;
 }
 .about-imag1 {
+  width: 270px;
 }
 /* img1 */
 .about-title-igor {
@@ -384,8 +317,10 @@ a {
 }
 /* img2 */
 .about-item-block {
+  width: 270px;
 }
 .about-imag2 {
+  width: 270px;
 }
 .about-title-olga {
   font-family: Roboto;
@@ -405,11 +340,13 @@ a {
 }
 /* img3 */
 .about-item-box {
+  width: 270px;
 }
 .about-imag3 {
+  width: 270px;
 }
 .about-title-nicolay {
-  ont-family: Roboto;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -426,8 +363,10 @@ a {
 }
 /* img4 */
 .about-item {
+  width: 270px;
 }
 .about-imag4 {
+  width: 270px;
 }
 .about-title-mihail {
   font-family: Roboto;
@@ -448,6 +387,7 @@ a {
 }
 /* Footer bg */
 .footer {
+  width: 1600px;
 }
 .footer-logo {
   font-family: Raleway;
@@ -461,15 +401,206 @@ a {
 
   color: #2196f3;
 }
+.address {
+  font-style: normal;
+}
 /*----ПОРТФОЛИО----*/
 /* КНОПКИ*/
+.header-list {
+  font-family: Roboto;
+}
 .button-all {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-all:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 .button-web {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-web:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .button-app {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-app:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .button-design {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-design:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .button-marketing {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-marketing:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/*Блоки*/
+/*BLOK 1*/
+.main-content-one {
+  width: 370px;
+  background: #ffffff;
+}
+.image-one {
+  width: 370px;
+}
+.paragraph-one {
+  color: #212121;
+}
+.title-one {
+  color: #757575;
+}
+/*BLOK 2*/
+.main-content-two {
+  width: 370px;
+}
+.image-two {
+  width: 370px;
+}
+.paragraph-two {
+  color: #212121;
+}
+.title-two {
+  color: #757575;
+}
+/*BLOK 3*/
+.main-content-tree {
+  width: 370px;
+}
+.image-tree {
+  width: 370px;
+}
+.paragraph-tree {
+  color: #212121;
+}
+.title-tree {
+  color: #757575;
+}
+/*BLOK 4*/
+.main-content-four {
+  width: 370px;
+}
+.image-four {
+  width: 370px;
+}
+.paragraph-four {
+  color: #212121;
+}
+.title-four {
+  color: #757575;
+}
+/*BLOK 5*/
+.main-content-five {
+  width: 370px;
+}
+.image-five {
+  width: 370px;
+}
+.paragraph-five {
+  color: #212121;
+}
+.title-five {
+  color: #757575;
+}
+/*BLOK 6*/
+.main-content-six {
+  width: 370px;
+}
+.image-six {
+  width: 370px;
+}
+.paragraph-six {
+  color: #212121;
+}
+.title-six {
+  color: #757575;
+}
+/*BLOK 7*/
+.main-content-seven {
+  width: 370px;
+}
+.image-seven {
+  width: 370px;
+}
+.paragraph-seven {
+  color: #212121;
+}
+.title-seven {
+  color: #757575;
+}
+/*BLOK 8*/
+.main-content-eight {
+  width: 370px;
+}
+.image-eight {
+  width: 370px;
+}
+.title-eight {
+  color: #757575;
+}
+.paragraph-eight {
+  color: #212121;
+}
+/*BLOK 9*/
+.main-content-nine {
+  width: 370px;
+}
+.image-nine {
+  width: 370px;
+}
+.paragraph-nine {
+  color: #212121;
+}
+.title-nine {
+  color: #757575;
 }
