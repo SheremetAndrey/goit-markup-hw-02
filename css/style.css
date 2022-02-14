@@ -392,6 +392,9 @@ a {
   width: 1600px;
   background: #2f303a;
 }
+.adress {
+  font-size: 14px;
+}
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -409,6 +412,7 @@ a {
   color: #ffffff;
 }
 .footer-item {
+  font-size: 14px;
   color: #ffffff;
 }
 /*----ПОРТФОЛИО----*/
