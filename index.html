@@ -7,7 +7,6 @@
     <title>Document</title>
     <!--Стили-->
     <link rel="stylesheet" href="./css/style.css" />
-    <base target="_blank" />
     <!--Основные шрифты-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,11 +23,18 @@
       >
 
       <ul class="header-list list">
-        <li><a class="header-item-studio" href="">Студия</a></li>
         <li>
-          <a class="header-item-portfolio" href="./portfolio.html">Портфолио</a>
+          <a href="./index.html" class="header-item-studio current">Студия</a>
         </li>
-        <li><a class="header-item-contacts" href="">Контакты</a></li>
+        <li>
+          <a
+            href="./portfolio.html"
+            class="header-item-portfolio"
+            target="_blank"
+            >Портфолио</a
+          >
+        </li>
+        <li><a href="" class="header-item-contacts">Контакты</a></li>
       </ul>
       <ul class="header-nav list">
         <li>
@@ -83,7 +89,7 @@
         </ul>
       </section>
       <section class="study">
-        <h2 class="study-title" lang="ru">Чем мы занимаемся</h2>
+        <h3 class="study-title" lang="ru">Чем мы занимаемся</h3>
         <ul class="study-list list">
           <li>
             <img
